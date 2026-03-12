@@ -34,7 +34,6 @@
   margin: 8px 0 0;
   column-gap: 20px;
   list-style-type: none;
-  padding-left: 0%;
 }
 
 .nav__link {
@@ -93,7 +92,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -111,18 +110,17 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
-  margin: 68px;
   color: #ffffff;
 }
 
 .staff__cards {
   display: flex;
   max-width: 760px;
-  margin: 0 auto;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
   padding-left: 0;
+  margin: 68px auto 0;
 }
 
 .card {
@@ -290,4 +288,110 @@
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  gap: 40px;
+  margin-top: 100px;
+}
+
+.step {
+  width: 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+.footer {
+  box-sizing: border-box;
+  background-color: rgb(36, 34, 34);
+  color: white;
+  padding: 60px 80px;
+}
+
+.footer__columns {
+  display: flex;
+}
+
+.footer__column_content_hours {
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: auto;
+}
+
+.footer__column_content_social {
+  margin-left: 80px;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-bottom: 16px;
+  list-style-type: none;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.footer__copyright {
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 100px;
+  margin-bottom: 0;
 }
